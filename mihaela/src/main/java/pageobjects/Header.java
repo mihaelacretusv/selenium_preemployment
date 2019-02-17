@@ -17,7 +17,7 @@ public class Header {
     private By userAcc = By.className("account");
     private By info = By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/span");
 
-    //private Utils util = new Utils();
+    //private util.Utils util = new util.Utils();
 
     public Header(WebDriver driver) {
         this.driver = driver;
