@@ -1,25 +1,23 @@
 package loginTests;
 
-import org.junit.*;
-import org.junit.runners.MethodSorters;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
 import pageobjects.Header;
 import pageobjects.Login;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class LoginTest {
     private static WebDriver driver;
     private static Header header;
 
-    @BeforeClass
-    public static void setup() {
+    @BeforeSuite
+    public void setup() {
         System.setProperty("webdriver.chrome.driver", "c:\\01_Softvision\\Pre employment\\chromedriver.exe");
         driver = new ChromeDriver();
         header = new Header(driver);
     }
 
-    @Before
+    @BeforeTest
     public void initial() {
         driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
@@ -36,7 +34,6 @@ public class LoginTest {
 
     }
 
-    @Ignore
     @Test
     public void loginWithSuccess2() {
         Login loginPage = new Login(driver);
@@ -51,13 +48,13 @@ public class LoginTest {
         loginPage.loginWith("johnsnow@workshop.com", "iknoweverything0");
 
     }
-    @After
+    @AfterTest
     public void signout() {
         Header header = new Header(driver);
         header.signOut();
     }
 
-    @AfterClass
+    @AfterSuite
     public static void tearDown() {
         driver.close();
     }
