@@ -44,7 +44,7 @@ public class LoginTest {
 
     }
 
-    @Ignore
+
     @Test
     public void loginWithSuccess3() {
         Login loginPage = new Login(driver);
