@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
+        /*System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("http://automationpractice.com/index.php");
         WebElement element = webDriver.findElement(By.name("search_query"));
@@ -31,8 +31,6 @@ public class Main {
         System.out.println("clear text");
         element.clear();
 
-    webDriver.close();
-
         System.out.println("list number of articles");
         System.out.println(products.size());
 
@@ -40,6 +38,10 @@ public class Main {
         List<WebElement> product = parent.findElements(By.className("product-container"));
         System.out.println(product.size());
 
+    webDriver.close();*/
+
+        String value = "firstName + lastName";
+        System.out.println(value);
     }
 
 
