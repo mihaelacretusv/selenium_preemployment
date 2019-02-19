@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="febb322b-097b-4116-9fd8-5b0024a0ec87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/petruta.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/MyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTest/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTest/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mihaela/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/RegisterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,14 +71,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="229">
+              <caret line="114" column="197" selection-start-line="114" selection-start-column="197" selection-end-line="114" selection-end-column="197" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
                 <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#4540#4541#0" expanded="true" />
-                <element signature="e#4608#4609#0" expanded="true" />
+                <element signature="e#4555#4556#0" expanded="true" />
+                <element signature="e#4623#4624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/RegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="436">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,7 +163,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="200" />
     <option name="y" value="16" />
     <option name="width" value="1400" />
@@ -248,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550594639647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550595272365" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -271,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegisterTest.createAnValidAccount">
+  <component name="RunManager" selected="TestNG.RegisterTest">
     <configuration name="LoginTest.logValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="petruta" />
       <extension name="coverage">
@@ -362,8 +352,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegisterTest.createAnValidAccount" />
         <item itemvalue="TestNG.RegisterTest" />
+        <item itemvalue="TestNG.RegisterTest.createAnValidAccount" />
         <item itemvalue="TestNG.RegisterTest.logValidUserAndPassword" />
         <item itemvalue="TestNG.LoginTest.logValidUser" />
         <item itemvalue="TestNG.LoginTest.loginNegative" />
@@ -384,18 +374,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTest - 2019.02.19 at 18h 17m 00s.xml">
-      <configuration name="RegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2019.02.19 at 18h 18m 35s.xml">
-      <configuration name="RegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2019.02.19 at 18h 20m 07s.xml">
-      <configuration name="RegisterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTest - 2019.02.19 at 18h 20m 47s.xml">
-      <configuration name="RegisterTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegisterTest - 2019.02.19 at 18h 22m 13s.xml">
       <configuration name="RegisterTest" configurationId="TestNG" />
     </history-entry>
@@ -413,6 +391,18 @@
     </history-entry>
     <history-entry file="RegisterTest_createAnValidAccount - 2019.02.19 at 18h 41m 05s.xml">
       <configuration name="RegisterTest.createAnValidAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTest_createAnValidAccount - 2019.02.19 at 18h 43m 42s.xml">
+      <configuration name="RegisterTest.createAnValidAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2019.02.19 at 18h 49m 52s.xml">
+      <configuration name="RegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2019.02.19 at 18h 51m 49s.xml">
+      <configuration name="RegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTest - 2019.02.19 at 18h 52m 16s.xml">
+      <configuration name="RegisterTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -507,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/RegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="436">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -517,14 +507,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="229">
+          <caret line="114" column="197" selection-start-line="114" selection-start-column="197" selection-end-line="114" selection-end-column="197" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#4540#4541#0" expanded="true" />
-            <element signature="e#4608#4609#0" expanded="true" />
+            <element signature="e#4555#4556#0" expanded="true" />
+            <element signature="e#4623#4624#0" expanded="true" />
           </folding>
         </state>
       </provider>

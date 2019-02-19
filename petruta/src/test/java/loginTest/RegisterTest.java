@@ -30,7 +30,7 @@ public class RegisterTest {
         header.clickSingIn();
         login = new Login(driver);
 
-        login.createAnValidAccount("mpetruta@sv.ro");
+        login.createAnValidAccount("cevapetruta@sv.ro");
         login.clickCreateAnAccount();
         Thread.sleep(5000);
         System.out.println("after wait");
