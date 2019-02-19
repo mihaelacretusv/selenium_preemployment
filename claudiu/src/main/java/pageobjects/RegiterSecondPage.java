@@ -29,8 +29,7 @@ public class RegiterSecondPage {
 
     public void insertFirstName(String firstNames) {
         WebElement insertFisrtName = webDriver.findElement(firstName);
-        WebDriverWait wait =new WebDriverWait(webDriver, 90);
-        wait.until(ExpectedConditions.elementToBeClickable(firstName));
+
         insertFisrtName.click();
         insertFisrtName.sendKeys(firstNames);
 

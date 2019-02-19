@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         WebDriver webDriver = new ChromeDriver();
         webDriver.get(Constants.BASE_URL);
