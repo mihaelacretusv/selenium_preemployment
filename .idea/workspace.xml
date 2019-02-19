@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+
   <component name="ChangeListManager">
     <list default="true" id="02ba19bd-4503-4c30-8fae-98b1e2dc17a9" name="Default Changelist" comment="" />
+
+
+  <component name="ChangeListManager">
+    <list default="true" id="065642ae-43bc-41d0-880f-47e9e0b74e3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/selenium_preemployment-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mihaela/mihaela.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mihaela/pom.xml" afterDir="false" />
+    </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
@@ -35,17 +50,54 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+
       <pane id="PackagesPane" />
       <pane id="Scope" />
+
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+
               <item name="selenium_preemployment" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_preemployment" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -53,11 +105,16 @@
               <item name="selenium_preemployment" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_preemployment" type="462c0819:PsiDirectoryNode" />
               <item name="mihaela" type="462c0819:PsiDirectoryNode" />
+
+              <item name="selenium_preemployment-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_preemployment-master" type="462c0819:PsiDirectoryNode" />
+
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -69,6 +126,16 @@
       <recent name="C:\selenium\selenium_preemployment" />
     </key>
   </component>
+
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550497078470" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -86,11 +153,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02ba19bd-4503-4c30-8fae-98b1e2dc17a9" name="Default Changelist" comment="" />
-      <created>1550496915331</created>
+
+
+      <changelist id="065642ae-43bc-41d0-880f-47e9e0b74e3a" name="Default Changelist" comment="" />
+      <created>1550496854191</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550496915331</updated>
+      <updated>1550496854191</updated>
+
     </task>
     <servers />
   </component>
@@ -102,7 +172,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -116,14 +188,21 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
+
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Maven" />
+
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mihaela/mihaela.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -136,4 +215,5 @@
       </provider>
     </entry>
   </component>
+
 </project>
