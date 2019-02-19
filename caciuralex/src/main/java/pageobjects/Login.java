@@ -9,9 +9,9 @@ import org.testng.Assert;
 public class Login {
 
     WebDriver driver;
-    By email = By.xpath("//*[@id=\"email\"]");
-    By password = By.xpath("//*[@id=\"passwd\"]");
-    By sign = By.xpath("//*[@id=\"SubmitLogin\"]");
+    By email = By.id("email");
+    By password = By.id("passwd");
+    By sign = By.id("SubmitLogin");
     By error=By.xpath("//*[@id=\"center_column\"]/div[1]");
 
     public Login(WebDriver driver) {

@@ -8,9 +8,8 @@ import static util.Constants.*;
 
 public class Register {
     WebDriver driver;
-    WebDriver webDriver;
-    By email = By.xpath("//*[@id=\"email_create\"]");
-    By create = By.xpath("//*[@id=\"SubmitCreate\"]");
+    By email = By.id(" email_create");
+    By create = By.id("SubmitCreate");
 
 
     public Register(WebDriver driver) {
