@@ -25,11 +25,10 @@ public class Main {
 
         System.out.println(products.size());
 
-       // WebElement productPanel =webdriver.findElement(By.id("homeFeatured"));
         WebElement productPanel =webdriver.findElement(By.id("homefeatured"));
         List <WebElement> goodList = productPanel.findElements(By.className("product-image-container"));
         System.out.println(goodList.size());
 
-        //webdriver.close();
+        webdriver.close();
     }
 }
