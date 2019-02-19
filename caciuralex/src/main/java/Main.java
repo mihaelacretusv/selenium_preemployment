@@ -38,9 +38,9 @@ public class Main {
         element.clear();
         webDriver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 
-        WebElement product = webDriver.findElement(By.className("product-container"));
+        WebElement product = webDriver.findElement(By.id("homefeatured"));
 
-        List<WebElement> productName = product.findElements(By.className("product-name"));
+        List<WebElement> productName = product.findElements(By.className("product-container"));
 
         System.out.println(productName.size());
 
