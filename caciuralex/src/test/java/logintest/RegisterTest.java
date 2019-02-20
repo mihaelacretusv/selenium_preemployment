@@ -1,6 +1,5 @@
 package logintest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
@@ -27,14 +26,46 @@ public class RegisterTest {
         header.clickSignIn();
     }
 
-    @Test
-    public void registerValidUser(){
+    @Test(groups = {"negative"})
+    public void tryToRegister_WithAlreadyUsedEmail() {
+        Register register = new Register(driver);
+        register.populateEmail(INVALID_EMAIL);
+        register.clickCreate();
+        register.checkCreateErrorVisible();
+    }
+
+    @Test(groups = {"negative"})
+    public void tryToRegister_WithValidEmail_WithoutCompletingAllMandatory() {
+        Register register = new Register(driver);
+        register.populateEmail(EMAIL);
+        register.clickCreate();
+        MandatoryFields man = new MandatoryFields(driver);
+        man.populateAllWithoutPassword(FIRSTNAME, LASTNAME, ADDRESS, CITY, ZIP, PHONE);
+        man.clickRegister();
+        man.checkMandatoryErrorVisible();
+
+    }
+
+    @Test(groups = {"negative"})
+    public void checkIfPopulatedPasswordHasLessThan5_Characters() {
+        Register register = new Register(driver);
+        register.populateEmail(EMAIL);
+        register.clickCreate();
+        MandatoryFields man = new MandatoryFields(driver);
+        man.populateAll(FIRSTNAME, LASTNAME, BADPASS, ADDRESS, CITY, ZIP, PHONE);
+        man.clickRegister();
+        man.checkPasswordError();
+    }
+
+    @Test(groups = {"positive"})
+    public void register_WithValidEmail_CompletingAllMandatory() {
         Header header = new Header(driver);
         Register register = new Register(driver);
         register.populateEmail(EMAIL);
         register.clickCreate();
-        MandatoryFields man=new MandatoryFields(driver);
+        MandatoryFields man = new MandatoryFields(driver);
         man.populateAll(FIRSTNAME, LASTNAME, PASSWORD, ADDRESS, CITY, ZIP, PHONE);
+        man.clickRegister();
         header.checkSignOutVisible();
     }
 

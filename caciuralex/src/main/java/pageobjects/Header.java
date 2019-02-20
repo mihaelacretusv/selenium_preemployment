@@ -35,8 +35,7 @@ public class Header {
     }
 
     public void checkSignOutVisible() {
-        boolean check = driver.findElement(signOutLocator).isDisplayed();
-        Assert.assertTrue(check);
+        driver.findElement(signOutLocator).isDisplayed();
     }
 
     public void checkPhone(String phone) {

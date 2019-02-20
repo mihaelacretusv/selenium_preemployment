@@ -1,5 +1,6 @@
 package logintest;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
@@ -10,6 +11,7 @@ import static util.Constants.*;
 
 public class LoginTest {
     WebDriver driver;
+
 
     @BeforeSuite
     public void initDriver() {
@@ -26,7 +28,7 @@ public class LoginTest {
     }
 
     @Test
-    public void logInValidUser() {
+    public void logIn_ValidUser() {
         Header header = new Header(driver);
         Login login = new Login(driver);
         login.loginValidUser(EMAIL, PASSWORD);
@@ -37,6 +39,7 @@ public class LoginTest {
     public void logIn_InvalidUser() {
         Login login = new Login(driver);
         login.loginInvalidUser(INVALID_EMAIL, PASSWORD);
+        login.checkLoginError();
     }
 
     @AfterTest

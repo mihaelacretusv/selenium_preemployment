@@ -12,4 +12,5 @@ public class Constants {
     public static final String ADDRESS = "dsadsadfsafafafa";
     public static final String CITY = "New York";
     public static final String ZIP = "32142";
+    public static final String BADPASS="aaaa";
 }

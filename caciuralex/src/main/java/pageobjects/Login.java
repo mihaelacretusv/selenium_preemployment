@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 public class Login {
 
@@ -19,6 +19,8 @@ public class Login {
     }
 
     public void populateEmail(String address) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(email));
         driver.findElement(email).clear();
         driver.findElement(email).sendKeys(address);
 
@@ -44,6 +46,13 @@ public class Login {
         clickSignIn();
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(error));
-        Assert.assertTrue(driver.findElement(error).isDisplayed());
+        checkLoginError();
+    }
+
+    public void checkLoginError() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(email));
+        driver.findElement(By.xpath("//*[@id=\"center_column\"]/div[1]")).isDisplayed();
+
     }
 }

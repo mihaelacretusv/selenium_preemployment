@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="logintest.RegisterTest">
+        <methods>
+          <include name="tryToRegister_WithAlreadyUsedEmail"/>
+          <include name="checkIfPopulatedPasswordHas_5_Characters"/>
+          <include name="f"/>
+          <include name="closeDriver"/>
+          <include name="initUrl"/>
+          <include name="register_WithValidEmail_CompletingAllMandatory"/>
+          <include name="tryToRegister_WithValidEmail_WithoutCompletingAllMandatory"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- logintest.RegisterTest -->
+      <class name="logintest.LoginTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="initUrl"/>
+          <include name="logIn_InvalidUser"/>
+          <include name="initDriver"/>
+          <include name="signOut"/>
+        </methods>
+      </class> <!-- logintest.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

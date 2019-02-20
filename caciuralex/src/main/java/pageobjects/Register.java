@@ -3,13 +3,15 @@ package pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import static util.Constants.*;
 
 public class Register {
     WebDriver driver;
-    By email = By.id(" email_create");
+    By email = By.id("email_create");
     By create = By.id("SubmitCreate");
+    By error=By.id("create_account_error");
 
 
     public Register(WebDriver driver) {
@@ -23,6 +25,10 @@ public class Register {
 
     public void clickCreate() {
         driver.findElement(create).click();
+    }
+
+    public void checkCreateErrorVisible() {
+        driver.findElement(error).isDisplayed();
     }
 
     public static void main(String[] args) {
@@ -42,4 +48,6 @@ public class Register {
 
         webDriver.close();
     }
+
+
 }

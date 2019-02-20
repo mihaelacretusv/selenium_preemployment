@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class MandatoryFields {
     WebDriver driver;
@@ -21,6 +22,8 @@ public class MandatoryFields {
     By country = By.id("id_country");
     By addres2 = By.id("alias");
     By register = By.id("submitAccount");
+    By error =By.xpath("//*[@id=\"center_column\"]/div");
+    By error2=By.xpath("//*[@id=\"center_column\"]/div/ol/li[1]");
 
 
     public MandatoryFields(WebDriver driver) {
@@ -136,6 +139,26 @@ public class MandatoryFields {
         populatePassword(password);
         populateCountry("21");
         populateState("1");
-        clickRegister();
+    }
+    public void populateAllWithoutPassword(String firstname, String lastname, String address, String city, String postal, String phone) {
+        populateFirstName(firstname);
+        populateLastName(lastname);
+        populateFirst(firstname);
+        populateLast(lastname);
+        populateAddress(address);
+        populateAddress2(address);
+        populateCity(city);
+        populatePhone(phone);
+        populateZip(postal);
+        populateCountry("21");
+        populateState("1");
+    }
+
+    public void checkMandatoryErrorVisible() {
+        driver.findElement(error).isDisplayed();
+    }
+
+    public void checkPasswordError() {
+        driver.findElement(error2).isDisplayed();
     }
 }
