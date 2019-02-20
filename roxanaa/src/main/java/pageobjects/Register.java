@@ -104,9 +104,6 @@ public class Register {
         WebDriverWait wait = new WebDriverWait(webDriver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(registerLocator));
         webDriver.findElement(registerLocator).click();
-
-        WebElement element = webDriver.findElement(registerLocator);
-        element.click();
     }
 
 }

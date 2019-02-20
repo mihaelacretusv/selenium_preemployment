@@ -34,21 +34,46 @@ public class LoginTest {
         }
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups ={"logInPositiveTest"})
     public void logValidUser() {
         login.loginValidUser(Constants.EMAIL, Constants.PASSWORD);
     }
 
-    @Test(priority = 2)
+    @Parameters({"emailAddress"})
+    @Test(priority = 4, groups = { "logInNegativeTest"})
+    public void logInInvalidUserWithValidEmailAddressButNonExistingAccount(@Optional("email@mailinator.com") String email){
+        webdriver.findElement(new By.ByName("email")).clear();
+        login.populateEmailField(email);
+        assert "email@mailinator.com".equals(email);
+    }
+
+    @Test(groups = { "logInNegativeTest"})
+    public void logInInvalidUserWithSpecialCharacters(){
+
+    }
+    @Test(groups = { "logInNegativeTest"})
+    public void logInInvalidUsersWithNumerals(){
+    }
+
+    @Test(groups = { "logInNegativeTest"})
+    public void logInInvalidUserWithBlankFields(){
+
+    }
+
+    @Test(groups = { "logInNegativeTest"})
+    public void logInUserThatIsAlreadyLoggedIn(){
+
+    }
+
+    @Test(priority = 2, groups = {"logInPositiveTest"})
     public void signOut() {
         header.clickSignOut();
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3,groups = { "logInNegativeTest"})
     public void logInvalidUser() {
         login.loginInValidUser(Constants.INVALID_EMAIL, Constants.INVALID_PASSWORD);
     }
-
 
     @AfterSuite
     public void closeBrowser() {

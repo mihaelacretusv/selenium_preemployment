@@ -35,10 +35,10 @@ public class RegisterTest {
         }
     }
 
-    @Test
+    @Test(groups = { "positiveTest"})
     public void validCreateAccount(){
         CreateAccount account = new CreateAccount(webdriver);
-        account.accountEmailField("roxana12@mailinator.com");
+        account.accountEmailField("roxana111oj1@mailinator.com");
         account.clickCreateAccount();
 
         Register personal = new Register(webdriver);
@@ -57,6 +57,62 @@ public class RegisterTest {
         personal.dropdownCountryPopulate("21");
         personal.clickRegister();
     }
+
+    @Test(groups = { "positiveTest"})
+    public void createAccountWithAllFieldsCompleted(){
+
+    }
+    @Test(groups = { "positiveTest"})
+    public void validCheckOneTitleRadioButton(){
+    }
+    @Test(groups = { "negativeTest"})
+    public void invalidCreateAccountWithAlreadyUsedEmailAddress(){
+    }
+
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithNumeralsInAllFields(){
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithAllFieldsBlank(){
+
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithSpecialCharactersInAllFields(){
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithALargeNumberOfCharacters(){
+
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithInvalidEmailFormat(){
+    }
+    @Test(groups = { "negativeTest"})
+    public void invalidCheckBothTitleRadioButtons(){
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountWithPasswordLessThanFiveCharacters(){
+
+    }
+    @Test(groups = { "negativeTest"})
+    public void createAccountFillingOnlyTheNotMandatoryFields(){
+    }
+    @Test(groups = { "redundantTest"})
+    public void checkCreateAccountButtonCanBeClicked(){
+    }
+    @Test(groups = { "redundantTest"})
+    public void  createAccountWithoutSelectingFromCountryDropdown(){
+
+    }
+    @Test(groups = { "redundantTest"})
+    public void createAccountWithoutSelectingFromStateDropdown(){
+    }
+    @Test(groups = { "redundantTest"})
+    public void checkIfRegisterButtonIsVisible(){
+    }
+    @Test(groups = { "redundantTest"})
+    public void checkIfYouCanPressRegisterButton(){
+    }
+
 
     @AfterSuite
     public void closeBrowser() {

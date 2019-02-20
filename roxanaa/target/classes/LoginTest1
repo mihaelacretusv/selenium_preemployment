@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="RegisterSuite" verbose="1" >
+<suite name="LogInSuite" verbose="1" >
 
     <test name="Test">
         <classes>
-            <class name="createaccounttest.RegisterTest"/>
+            <class name="logintest.LoginTest"/>
         </classes>
     </test>
 </suite>
