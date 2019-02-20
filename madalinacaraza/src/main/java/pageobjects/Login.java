@@ -43,7 +43,14 @@ public class Login {
         populateEmail(email);
         populatePassword(password);
         clickSignIn();
+
     }
+
+
+
+
+
+
 
     public void clickSignIn(){
         webDriver.findElement(signInLocator).click();
