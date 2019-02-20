@@ -1,14 +1,13 @@
 package logintest;
 
+import com.beust.jcommander.Parameter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pageobjects.Header;
 import pageobjects.Login;
 import util.Constants;
+
 
 public class LoginTest {
     WebDriver webDriver;
@@ -30,9 +29,20 @@ public class LoginTest {
         header=new Header(webDriver);
         header.clickSignIn();
     }
+    @Parameters({"b", "c"})
+    @Test(groups = "positive")
+    public void testLogin( String b,  String c) {
+        Login login = new Login(webDriver);
+        login.clickemailAdress();
+        login.populateEmailAdress(b);
+        login.clickpassword();
+        login.populatepassword(c);
+        login.clickSignInClick();
 
 
-    @Test
+    }
+
+    @Test()
     public void validUser() {
 
         Login login = new Login(webDriver);
@@ -41,34 +51,58 @@ public class LoginTest {
         login.clickpassword();
         login.populatepassword(Constants.PASSWORD);
         login.clickSignInClick();
-        header.checkUsername("Mihaela","Cretu");
+        header.checkUsername("Mihaela", "Cretu");
     }
 
-    @Test
+
+    @Ignore
     public  void invalid()
     {
         login=new Login(webDriver);
         login.InvalidUser();
 
     }
-    @AfterTest
-    public void Signout()
 
-    {
-        header=new Header(webDriver);
-        header.clickSignOut();
+
+    @Test(groups = "negative")
+    public void tryToLoginWithWrongEmailAndPassword() {
+
+
+    }
+
+    @Test(groups = "negative")
+    public void tryToLoginWithOnlyEmail() {
+
 
     }
 
 
+    @Test(groups = "negative")
+    public void tryToLoginWithNoPassword() {
+
+    }
+
+    @Test(groups = "negative")
+    public void tryToLoginWithNoEmailAdress() {
 
 
+    }
+
+    @Test(groups = "positive")
+    public void verifyLogInWithSucces() {
+
+    }
+
+    @Test(groups = "positive")
+    public void verifyLogOutWithSucces() {
+
+    }
+
+    @Test(groups = "negative")
+    public void checkInvalidUserLogIn() {
 
 
-
-
-
-
+    }
 
 
 }

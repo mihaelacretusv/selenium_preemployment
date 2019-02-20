@@ -33,7 +33,7 @@ public class Header {
 
     }
 
-    public void checkUsername(String name, String lastname) {
+    public void  checkUsername(String name, String lastname) {
         WebElement checkUserName = drive.findElement(userName);
         Assert.assertEquals(name + " " + lastname, checkUserName.getText());
 

@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 public class Login {
 
-    By emailAdressLabelLocator = By.xpath("//*[@id=\"email\"]");
+    By emailAdressLabelLocator = By.id("email");
     By passwordLabelLocator = By.xpath("//*[@id=\"passwd\"]");
     By signInButton = By.xpath("//*[@id=\"SubmitLogin\"]/span");
     By errorAlert=By.xpath("//*[@id=\"center_column\"]/div[1]");
