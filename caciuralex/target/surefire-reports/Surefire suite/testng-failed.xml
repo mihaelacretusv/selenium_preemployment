@@ -5,19 +5,18 @@
     <classes>
       <class name="logintest.RegisterTest">
         <methods>
-          <include name="tryToRegister_WithAlreadyUsedEmail"/>
-          <include name="checkIfPopulatedPasswordHas_5_Characters"/>
-          <include name="f"/>
           <include name="closeDriver"/>
           <include name="initUrl"/>
           <include name="register_WithValidEmail_CompletingAllMandatory"/>
           <include name="tryToRegister_WithValidEmail_WithoutCompletingAllMandatory"/>
+          <include name="checkIfPopulatedPasswordHasLessThan5_Characters"/>
           <include name="initDriver"/>
         </methods>
       </class> <!-- logintest.RegisterTest -->
       <class name="logintest.LoginTest">
         <methods>
           <include name="closeDriver"/>
+          <include name="logIn_ValidUser"/>
           <include name="initUrl"/>
           <include name="logIn_InvalidUser"/>
           <include name="initDriver"/>
