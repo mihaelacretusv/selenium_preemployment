@@ -1,0 +1,16 @@
+<test name="My suite">
+    <groups>
+        <dependencies>
+            <group name="positive" depends-on=""/>
+            <group name="negative" depends-on=""/>
+        </dependencies>
+    </groups>
+    <suite name="Suite1" verbose="1">
+        <test name="Register">
+            <classes>
+                <class name="logintest.LoginTest"/>
+                <class name="logintest.RegisterTest"/>
+            </classes>
+        </test>
+    </suite>
+</test>
