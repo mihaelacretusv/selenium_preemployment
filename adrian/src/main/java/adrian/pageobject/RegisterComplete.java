@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
 public class RegisterComplete {
     public WebDriver driver;
@@ -14,8 +15,8 @@ public class RegisterComplete {
     By registerPILastName = By.id("customer_lastname");
     //By registerEmail = By.id("email"); - AUTOCOMPLETE
     By registerPassword = By.id("passwd");
-    By registerFiName = By.id("firstname");
-    By registerLaName = By.id("lastname");
+    //By registerFiName = By.id("firstname");
+    //By registerLaName = By.id("lastname");
     By registerAdress = By.id("address1");
     By registerCity = By.id("city");
     By registerPostalcode = By.id("postcode");
@@ -23,11 +24,14 @@ public class RegisterComplete {
     By registerAliasAdress = By.id("alias");
 
     // DROPDOWN
-    By registerState = By.id("state");
-    By registerCountry = By.id("country");
+    By registerState = By.id("id_state");
+    //By registerCountry = By.id("country");
     By registerDaysDate = By.xpath("//*[@id=\"days\"]");
     By registerMonthsDate = By.xpath("//*[@id=\"months\"]");
     By registerYearsDate = By.xpath("//*[@id=\"years\"]");
+
+    // Button
+    By clickRegister = By.id("submitAccount");
 
 
     public RegisterComplete(WebDriver driver) {
@@ -60,41 +64,48 @@ public class RegisterComplete {
         driver.findElement(registerPassword).sendKeys(regpass);
     }
 
-    public void populateFirstName(String regfname) {
-        driver.findElement(registerFiName).sendKeys(regfname);
-    }
-
-    public void populateLastName(String reglname) {
-        driver.findElement(registerLaName).sendKeys(reglname);
-    }
-
     public void populateAdress(String adress) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(registerAdress));
+        driver.findElement(registerAdress).click();
+        driver.findElement(registerAdress).clear();
         driver.findElement(registerAdress).sendKeys(adress);
     }
 
     public void populateCity(String city) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(registerCity));
+        driver.findElement(registerCity).click();
+        driver.findElement(registerCity).clear();
         driver.findElement(registerCity).sendKeys(city);
     }
 
     public void populatePostalcode(String postalcode) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(registerPostalcode));
+        driver.findElement(registerPostalcode).click();
+        driver.findElement(registerPostalcode).clear();
         driver.findElement(registerPostalcode).sendKeys(postalcode);
     }
 
     public void populatePhone(String phone) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(registerPhone));
+        driver.findElement(registerPhone).click();
+        driver.findElement(registerPhone).clear();
         driver.findElement(registerPhone).sendKeys(phone);
     }
 
     public void populateAliasAdress(String aliasadres) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(registerAliasAdress));
+        driver.findElement(registerAliasAdress).click();
+        driver.findElement(registerAliasAdress).clear();
         driver.findElement(registerAliasAdress).sendKeys(aliasadres);
     }
 
     public void dropdownStatePopulate(String value) {
         Select element = new Select(driver.findElement(registerState));
-        element.selectByValue(value);
-    }
-
-    public void dropdownCountryPopulate(String value) {
-        Select element = new Select(driver.findElement(registerCountry));
         element.selectByValue(value);
     }
 
@@ -112,5 +123,28 @@ public class RegisterComplete {
         Select element = new Select(driver.findElement(registerYearsDate));
         element.selectByValue(value);
     }
+
+    public void createNewAccountWithRegisterButton() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(clickRegister));
+        driver.findElement(clickRegister).click();
+    }
+
+
+    public void registerUserWithAllMandatoryCompletedCorrectly(String firstname, String lastname, String password, String day, String month, String year, String adress, String city, String state, String postalcode, String phone, String adressalias) {
+        populatePIFirstName(firstname);
+        populatePILastName(lastname);
+        populatePass(password);
+        dropdownDaysPopulate(day);
+        dropdownMonthsPopulate(month);
+        dropdownYearsPopulate(year);
+        populateAdress(adress);
+        populateCity(city);
+        dropdownStatePopulate(state);
+        populatePostalcode(postalcode);
+        populatePhone(phone);
+        populateAliasAdress(adressalias);
+    }
+
 
 }
