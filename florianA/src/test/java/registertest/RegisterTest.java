@@ -1,14 +1,15 @@
 package registertest;
 
+import com.beust.jcommander.Parameter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import pageobject.Header;
 import pageobject.Register;
+
+import java.util.concurrent.TimeUnit;
 
 
 public class RegisterTest {
@@ -16,7 +17,6 @@ public class RegisterTest {
     WebDriver webDriver;
     Header head;
     Register register;
-    By errorLocator = By.className("page-heading");
 
     @BeforeSuite
     public void setup() {
@@ -33,21 +33,17 @@ public class RegisterTest {
 
     @Test
     public void creatingAnAccountWithValidInformation() {
-
-
         WebElement element = webDriver.findElement(By.id("email_create"));
         element.sendKeys("flo@gmail.com");
 
         webDriver.findElement(By.id("SubmitCreate")).click();
 
-        WebDriverWait wait = new WebDriverWait(webDriver, 5);
-        wait.until(ExpectedConditions.visibilityOf(webDriver.findElement(errorLocator)));
-
+        webDriver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
         register = new Register(webDriver);
 
         String firstName = "florian";
         String lastName = "paun";
-        String email = "flo@gmail.com";
+        String email = "";
         String password = "326159487Fl";
         String firstName2 = "florian";
         String lastName2 = "paun";
@@ -55,12 +51,51 @@ public class RegisterTest {
         String city = "Oras";
         int index = 3;
         String zip = "40070";
-        int country = 21;
+        int country = 1;
         String mphone = "0745356158";
         String alias = "flo@gmail.com";
 
         register.registerUser(firstName, lastName, email, password, firstName2, lastName2, address, city, index, zip, country, mphone, alias);
+    }
 
+    @Test (groups ="positive")
+    public void positiveFlowWithAllFields() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithNoMandatoryFieldsCompleted() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InThePasswordField() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InTheAliasField() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InTheZipCodeField() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InTheMobilePhoneField() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InTheDOBField() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToRegisterWithInvalidFormat_InTheAddressField() {
+    }
+
+    @Test (groups = "negative")
+    public void seeStateFieldContent_AndChooseOneState() {
+    }
+
+    @Test (groups = "negative")
+    public void seeCountryFieldContent_AndChooseOneCountry() {
     }
 
     @AfterTest

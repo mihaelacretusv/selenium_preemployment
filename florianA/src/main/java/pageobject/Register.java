@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.concurrent.TimeUnit;
+
 public class Register {
     WebDriver driver;
 
@@ -11,7 +13,7 @@ public class Register {
     By firstNameLocator = By.id("customer_firstname");
     By lastNameLocator = By.id("customer_lastname");
     By emailLocator = By.id("email");
-    By passwordLocator= By.id("passwd");
+    By passwordLocator = By.id("passwd");
     By dobLocator;
 
     By firstNameLocator2 = By.id("firstname");
@@ -20,19 +22,17 @@ public class Register {
     By addressLocator = By.id("address1");
 
     By cityLocator = By.id("city");
-    Select stateLocator = new Select(driver.findElement(By.id("id_state")));
+    Select stateLocator;
     By zipLocator = By.id("postcode");
-    Select countryLocator = new Select(driver.findElement(By.id("id_country")));
+    Select countryLocator;
 
 
     By mobilePhoneLocator = By.id("phone_mobile");
     By aliasLocator = By.id("alias");
     By registerButtonLocator = By.id("submitAccount");
 
-
-
-    public Register(WebDriver driver) {
-        this.driver = driver;
+    public Register(WebDriver adriver) {
+        this.driver = adriver;
     }
 
     public void populateFirstName(String firstName) {
@@ -68,6 +68,7 @@ public class Register {
     }
 
     public void populateState(int index) {
+        stateLocator = new Select(driver.findElement(By.id("id_state")));
         stateLocator.selectByIndex(index);
     }
 
@@ -76,6 +77,7 @@ public class Register {
     }
 
     public void populateCountry(int index) {
+        countryLocator = new Select(driver.findElement(By.id("id_country")));
         countryLocator.selectByIndex(index);
     }
 
@@ -91,7 +93,8 @@ public class Register {
         driver.findElement(registerButtonLocator).click();
     }
 
-    public void registerUser(String firstName, String lastName, String email, String password, String firstName2, String lastName2, String address, String city,int state, String zip, int country, String mphone, String alias) {
+    public void registerUser(String firstName, String lastName, String email, String password, String firstName2, String lastName2, String address, String city, int state, String zip, int country, String mphone, String alias) {
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         populateFirstName(firstName);
         populateLastName(lastName);
         populateEmail(email);

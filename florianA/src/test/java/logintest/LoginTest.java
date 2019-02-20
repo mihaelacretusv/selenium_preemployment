@@ -1,5 +1,6 @@
 package logintest;
 
+import com.beust.jcommander.Parameter;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +27,8 @@ public class LoginTest {
         head.signIn();
     }
 
-    @Test
+    @Parameters()
+    @Test (groups = "positive")
     public void loginPositive() {
         Login login = new Login(webDriver);
         String testEmail = "mihaela.cretu@softvision.ro";
@@ -36,13 +38,37 @@ public class LoginTest {
 
     }
 
-    @Test
+    @Test (groups = "negative")
     public void loginNegative() {
         Login login = new Login(webDriver);
         String testEmail = "email@email.com";
         String testPassword = "pass";
         login.loginInvalidUser(testEmail, testPassword);
     }
+
+
+    @Test (groups = "negative")
+    public void tryCreatingAnAccountWithExistingEmailAddress() {
+    }
+
+    @Test (groups = "negative")
+    public void tryToLoginWithAnExistingEmailAddressButWrongPassword() {
+    }
+
+
+    @Test (groups = "negative")
+    public void tryToLoginWithSQLInjectionInTheEmailAddressField() {
+    }
+
+
+    @Test (groups = "negative")
+    public void tryToLoginWithSQLInjectionInThePasswordField() {
+    }
+
+    @Test
+    public void testForgetYourPasswordButton() {
+    }
+
 
     @AfterTest
     public void signOut() {
