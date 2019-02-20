@@ -37,10 +37,12 @@ public class Register {
     }
 
     public void fillEmail(String email) {
+
         webDriver.findElement(emailLocator).sendKeys(email);
     }
 
     public void fillPassword(String password) {
+
         webDriver.findElement(passwordLocator).sendKeys(password);
     }
 
@@ -49,14 +51,17 @@ public class Register {
     }
 
     public void fillLastNameAddress(String chirila) {
+
         webDriver.findElement(lastNameAddressLocator).sendKeys(chirila);
     }
 
     public void fillAddress(String vladimirescu) {
+
         webDriver.findElement(addressLocator).sendKeys(vladimirescu);
     }
 
     public void fillCity(String iasi) {
+
         webDriver.findElement(cityLocator).sendKeys(iasi);
     }
 
@@ -66,6 +71,7 @@ public class Register {
     }
 
     public void fillPostalCode(String postal) {
+
         webDriver.findElement(postalCodeLocator).sendKeys(postal);
     }
 
@@ -75,14 +81,17 @@ public class Register {
     }
 
     public void fillMobilePhone(String phone) {
+
         webDriver.findElement(mobilePhoneLocator).sendKeys(phone);
     }
 
     public void fillAddressAlias(String myAddress) {
+
         webDriver.findElement(addressAliasLocator).sendKeys(myAddress);
     }
 
     public void clickRegister() {
+
         webDriver.findElement(registerLocator).click();
     }
 
@@ -102,4 +111,6 @@ public class Register {
         fillAddressAlias(user.getAddressAlias());
         clickRegister();
     }
+
+
 }

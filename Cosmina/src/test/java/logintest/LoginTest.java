@@ -26,7 +26,7 @@ public class LoginTest {
         header.clickSignIn();
     }
 
-    @Test
+    @Test(groups = {"positivetest"})
     public void loginValidUser() {
 
         Login login = new Login(webDriver);
@@ -35,13 +35,15 @@ public class LoginTest {
 
     }
 
-    @Test
+    @Test(groups = {"negativetest"})
     public void loginInvalidUser() {
 
         Login login = new Login(webDriver);
         login.loginInvalidUser("test@test.com", "djfk");
 
     }
+
+
 
     @AfterTest
     public void signOut() {

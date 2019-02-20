@@ -1,4 +1,4 @@
-package logintest;
+package registertest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.WebDriver;
@@ -29,10 +29,10 @@ public class RegisterTest {
         header = new Header(webDriver);
         header.clickSignIn();
         createAccount = new CreateAccount(webDriver);
-        createAccount.clickCreateAccount();
+        createAccount.validCreate("dfuvrihnigmvn@test.com");
     }
 
-    @Test
+    @Test(groups = {"positivetest"})
     public void registerValidUser() {
         User user = null;
 
@@ -49,12 +49,36 @@ public class RegisterTest {
     }
 
 
+    @Test(groups = {"negativetest"})
+    public void insertLessThanFiveCharactersForPassword() {
+        
+    }
+
+    @Test(groups = {"negativetest"})
+    public void typeOnlyNumbersOnFirstNameFields() {
+
+    }
+
+    @Test(groups = {"negativetest"})
+    public void leaveAMandatoryFieldEmpty() {
+
+    }
+
+    @Test(groups = {"negativetest"})
+    public void typeOnlyLettersOnMobilePhoneField() {
+
+    }
+
+    @Test(groups = {"negativetest"})
+    public void checkTheErrorMessagesForEmptyFields() {
+
+    }
+
+
     @AfterTest
     public void exit() {
         webDriver.close();
     }
-
-
 
 
 }

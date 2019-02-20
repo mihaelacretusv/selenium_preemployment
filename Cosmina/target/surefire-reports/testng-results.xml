@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="13953" started-at="2019-02-20T13:13:49 EET" finished-at="2019-02-20T13:14:03 EET">
+    <groups>
+      <group name="positivetest">
+        <method signature="LoginTest.loginValidUser()[pri:0, instance:logintest.LoginTest@c038203]" name="loginValidUser" class="logintest.LoginTest"/>
+      </group> <!-- positivetest -->
+      <group name="negativetest">
+        <method signature="LoginTest.loginInvalidUser()[pri:0, instance:logintest.LoginTest@c038203]" name="loginInvalidUser" class="logintest.LoginTest"/>
+      </group> <!-- negativetest -->
+    </groups>
+    <test name="Nopackage" duration-ms="13953" started-at="2019-02-20T13:13:49 EET" finished-at="2019-02-20T13:14:03 EET">
+      <class name="logintest.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:logintest.LoginTest@c038203]" name="setup" is-config="true" duration-ms="2752" started-at="2019-02-20T13:13:47 EET" finished-at="2019-02-20T13:13:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initial()[pri:0, instance:logintest.LoginTest@c038203]" name="initial" is-config="true" duration-ms="5729" started-at="2019-02-20T13:13:49 EET" finished-at="2019-02-20T13:13:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method status="PASS" signature="loginInvalidUser()[pri:0, instance:logintest.LoginTest@c038203]" name="loginInvalidUser" duration-ms="1151" started-at="2019-02-20T13:13:55 EET" finished-at="2019-02-20T13:13:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUser -->
+        <test-method status="PASS" signature="loginValidUser()[pri:0, instance:logintest.LoginTest@c038203]" name="loginValidUser" duration-ms="1516" started-at="2019-02-20T13:13:56 EET" finished-at="2019-02-20T13:13:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidUser -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:logintest.LoginTest@c038203]" name="signOut" is-config="true" duration-ms="5529" started-at="2019-02-20T13:13:58 EET" finished-at="2019-02-20T13:14:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:logintest.LoginTest@c038203]" name="exit" is-config="true" duration-ms="58" started-at="2019-02-20T13:14:03 EET" finished-at="2019-02-20T13:14:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- logintest.LoginTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
