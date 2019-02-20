@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b80caa49-e94d-49e0-8a29-0e09dbe84618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logintest/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/createaccounttest/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logintest/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/registertest/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logintest/CreateAccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logintest/RegisterTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="b80caa49-e94d-49e0-8a29-0e09dbe84618" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -258,7 +246,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550661292770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550662872295" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
