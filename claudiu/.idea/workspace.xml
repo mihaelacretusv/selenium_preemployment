@@ -2,34 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b80aeb4-a42c-43ff-a3ec-03805fc84e92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/claudiu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/MyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/RegiterSecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCreateAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/CreateAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/Header.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/MyAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobjects/RegiterSecondPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/util/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCreateAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logintest/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCreateAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCreateAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +25,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="462">
+              <caret line="34" column="14" selection-start-line="34" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,48 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/RegiterSecondPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="-198">
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="390">
+              <caret line="23" column="25" selection-start-line="23" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,10 +87,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/logintest/RegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/groups.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -158,24 +146,36 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>wait</find>
+      <find>invalid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="claudiuobjectbk" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/MyAccount.java" />
-        <option value="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCreateAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/RegiterSecondPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCreateAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/groups.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/RegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/groups.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/groups.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -186,11 +186,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PageobjClaudiu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="496" />
-    <option name="y" value="119" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,8 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,14 +246,6 @@
               <item name="PageobjClaudiu" type="b2602c69:ProjectViewProjectNode" />
               <item name="claudiu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageobjClaudiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="claudiu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,11 +267,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550592223502" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550662303611" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\claudiu.iacob\Desktop\selenium_preemployment\claudiu" />
+      <recent name="C:\Users\claudiu.iacob\Desktop\selenium_preemployment\claudiu\src\test\java\logintest" />
+      <recent name="C:\Users\claudiu.iacob\Desktop\selenium_preemployment\claudiu\src\main\java\util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -289,8 +302,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCreateAccount">
-    <configuration name="LoginTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.testLogin">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pageobjects.Main" />
+      <module name="claudiu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/claudiu.iacob/Desktop/selenium_preemployment/claudiu/groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="claudiu" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/claudiu.iacob/Desktop/selenium_preemployment/claudiu/src/test/java/logintest/groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="claudiu" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/logintest/groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="claudiu" />
       <extension name="coverage">
         <pattern>
@@ -300,43 +346,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="logintest" />
       <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="claudiu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logintest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="logintest" />
-      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCreateAccount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="claudiu" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCreateAccount" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCreateAccount.testFirstRegisterPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="claudiu" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCreateAccount" />
-      <option name="METHOD_NAME" value="testFirstRegisterPage" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -344,11 +354,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCreateAccount.testTwoPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.validUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="claudiu" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCreateAccount" />
-      <option name="METHOD_NAME" value="testTwoPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logintest" />
+      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
+      <option name="METHOD_NAME" value="validUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -358,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCreateAccount" />
-        <item itemvalue="TestNG.TestCreateAccount.testFirstRegisterPage" />
-        <item itemvalue="TestNG.TestCreateAccount.testTwoPage" />
-        <item itemvalue="TestNG.LoginTest (2)" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
+        <item itemvalue="TestNG.C:/Users/claudiu.iacob/Desktop/selenium_preemployment/claudiu/groups.xml" />
+        <item itemvalue="TestNG.C:/Users/claudiu.iacob/Desktop/selenium_preemployment/claudiu/src/test/java/logintest/groups.xml" />
+        <item itemvalue="TestNG.LoginTest.validUser" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -380,68 +396,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 25m 58s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 18m 19s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 35m 37s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 18m 45s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 35m 49s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 19m 21s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 36m 31s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 19m 43s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 46m 52s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 22m 18s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 49m 35s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 26m 04s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 50m 11s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 28m 21s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 51m 27s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="C__Users_claudiu_iacob_Desktop_selenium_preemployment_claudiu_groups_xml - 2019.02.20 at 13h 28m 29s.xml">
+      <configuration name="C:/Users/claudiu.iacob/Desktop/selenium_preemployment/claudiu/groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 53m 42s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 29m 17s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount - 2019.02.19 at 17h 54m 38s.xml">
-      <configuration name="TestCreateAccount" configurationId="TestNG" />
+    <history-entry file="LoginTest_testLogin - 2019.02.20 at 13h 31m 17s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35181236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3629469" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3629469" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -477,64 +493,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java</url>
-          <line>40</line>
-          <properties class="TestCreateAccount" method="testFirstRegisterPage">
+          <url>file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java</url>
+          <line>33</line>
+          <properties class="logintest.LoginTest" method="testLogin">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/RegiterSecondPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,23 +534,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="504">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/RegiterSecondPage.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="231">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" column="14" selection-start-line="34" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="e#16820#16824#0" expanded="true" />
+            <element signature="e#16837#16843#0" expanded="true" />
+            <element signature="e#16846#16852#0" expanded="true" />
+            <element signature="e#16862#16868#0" expanded="true" />
+            <element signature="e#16873#16879#0" expanded="true" />
+            <element signature="e#16880#16884#0" expanded="true" />
+            <element signature="e#16885#16889#0" expanded="true" />
+            <element signature="e#16911#16917#0" expanded="true" />
+            <element signature="e#16949#16955#0" expanded="true" />
+            <element signature="e#16955#16959#0" expanded="true" />
+            <element signature="e#16960#16964#0" expanded="true" />
+            <element signature="e#16982#16988#0" expanded="true" />
+            <element signature="e#16999#17005#0" expanded="true" />
+            <element signature="e#17014#17020#0" expanded="true" />
+            <element signature="e#17021#17027#0" expanded="true" />
+            <element signature="e#17033#17039#0" expanded="true" />
+            <element signature="e#17055#17061#0" expanded="true" />
+            <element signature="e#17061#17065#0" expanded="true" />
+            <element signature="e#17068#17072#0" expanded="true" />
+            <element signature="e#17090#17096#0" expanded="true" />
+            <element signature="e#17097#17103#0" expanded="true" />
+            <element signature="e#17112#17118#0" expanded="true" />
+            <element signature="e#17119#17125#0" expanded="true" />
+            <element signature="e#17131#17137#0" expanded="true" />
+            <element signature="e#17160#17166#0" expanded="true" />
+            <element signature="e#17166#17170#0" expanded="true" />
+            <element signature="e#17175#17179#0" expanded="true" />
+            <element signature="e#17185#17189#0" expanded="true" />
+            <element signature="e#17196#17200#0" expanded="true" />
+            <element signature="e#17203#17207#0" expanded="true" />
+            <element signature="e#17216#17220#0" expanded="true" />
+            <element signature="e#17233#17239#0" expanded="true" />
+            <element signature="e#17247#17253#0" expanded="true" />
+            <element signature="e#17254#17258#0" expanded="true" />
+            <element signature="e#17267#17271#0" expanded="true" />
+            <element signature="e#17284#17290#0" expanded="true" />
+            <element signature="e#17298#17304#0" expanded="true" />
+            <element signature="e#17305#17309#0" expanded="true" />
+            <element signature="e#17316#17320#0" expanded="true" />
+            <element signature="e#17324#17328#0" expanded="true" />
+            <element signature="e#17333#17337#0" expanded="true" />
+            <element signature="e#17344#17348#0" expanded="true" />
+            <element signature="e#17353#17357#0" expanded="true" />
+            <element signature="e#17364#17368#0" expanded="true" />
+            <element signature="e#17375#17379#0" expanded="true" />
+            <element signature="e#17390#17396#0" expanded="true" />
+            <element signature="e#17415#17421#0" expanded="true" />
+            <element signature="e#17422#17426#0" expanded="true" />
+            <element signature="e#17433#17437#0" expanded="true" />
+            <element signature="e#17448#17454#0" expanded="true" />
+            <element signature="e#17476#17482#0" expanded="true" />
+            <element signature="e#17483#17487#0" expanded="true" />
+            <element signature="e#17492#17496#0" expanded="true" />
+            <element signature="e#17504#17508#0" expanded="true" />
+            <element signature="e#17511#17515#0" expanded="true" />
+            <element signature="e#17520#17524#0" expanded="true" />
+            <element signature="e#17525#17529#0" expanded="true" />
+            <element signature="e#17559#17563#0" expanded="true" />
+            <element signature="e#17564#17568#0" expanded="true" />
+            <element signature="e#17574#17578#0" expanded="true" />
+            <element signature="e#17579#17583#0" expanded="true" />
+            <element signature="e#17606#17610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="25" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -570,36 +676,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/logintest/RegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
+    <entry file="file://$PROJECT_DIR$/groups.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CreateAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="273">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,9 +703,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>claudiu</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

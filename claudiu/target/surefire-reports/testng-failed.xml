@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LoginandRegister]">
+  <test thread-count="5" verbose="0" name="TestForRegisterandLogin(failed)">
+    <parameter name="b" value="mihaela.cretu@softvision.ro"/>
+    <parameter name="c" value="Test1234"/>
+    <groups>
+      <run>
+        <include name="negative"/>
+        <include name="positive"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="logintest.LoginTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- logintest.LoginTest -->
+    </classes>
+  </test> <!-- TestForRegisterandLogin(failed) -->
+</suite> <!-- Failed suite [LoginandRegister] -->
