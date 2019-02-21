@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="18" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1 (0)" duration-ms="13651" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:11Z">
+    <groups>
+      <group name="negative">
+        <method signature="RegisterTest.seeCountryFieldContent_AndChooseOneCountry()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="seeCountryFieldContent_AndChooseOneCountry" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.seeStateFieldContent_AndChooseOneState()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="seeStateFieldContent_AndChooseOneState" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InTheAddressField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheAddressField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InTheAliasField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheAliasField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InTheDOBField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheDOBField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InTheMobilePhoneField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheMobilePhoneField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InThePasswordField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InThePasswordField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithInvalidFormat_InTheZipCodeField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheZipCodeField" class="registertest.RegisterTest"/>
+        <method signature="RegisterTest.tryToRegisterWithNoMandatoryFieldsCompleted()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithNoMandatoryFieldsCompleted" class="registertest.RegisterTest"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="RegisterTest.positiveFlowWithAllFields()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="positiveFlowWithAllFields" class="registertest.RegisterTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Test" duration-ms="13651" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:11Z">
+      <class name="registertest.RegisterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="setup" is-config="true" duration-ms="3080" started-at="2019-02-20T13:54:54Z" finished-at="2019-02-20T13:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="init" is-config="true" duration-ms="7310" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="creatingAnAccountWithValidInformation()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="creatingAnAccountWithValidInformation" duration-ms="3291" started-at="2019-02-20T13:55:04Z" finished-at="2019-02-20T13:55:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"customer_firstname"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 39491dc85b795f212b4897e835d734f1
+*** Element info: {Using=id, value=customer_firstname}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"customer_firstname"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 39491dc85b795f212b4897e835d734f1
+*** Element info: {Using=id, value=customer_firstname}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageobject.Register.populateFirstName(Register.java:39)
+at pageobject.Register.registerUser(Register.java:98)
+at registertest.RegisterTest.creatingAnAccountWithValidInformation(RegisterTest.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingAnAccountWithValidInformation -->
+        <test-method status="PASS" signature="positiveFlowWithAllFields()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="positiveFlowWithAllFields" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveFlowWithAllFields -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InTheAliasField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheAliasField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InTheAliasField -->
+        <test-method status="PASS" signature="seeCountryFieldContent_AndChooseOneCountry()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="seeCountryFieldContent_AndChooseOneCountry" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeCountryFieldContent_AndChooseOneCountry -->
+        <test-method status="PASS" signature="seeStateFieldContent_AndChooseOneState()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="seeStateFieldContent_AndChooseOneState" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeStateFieldContent_AndChooseOneState -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InTheAddressField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheAddressField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InTheAddressField -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InTheDOBField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheDOBField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InTheDOBField -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InTheMobilePhoneField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheMobilePhoneField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InTheMobilePhoneField -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InThePasswordField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InThePasswordField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InThePasswordField -->
+        <test-method status="PASS" signature="tryToRegisterWithNoMandatoryFieldsCompleted()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithNoMandatoryFieldsCompleted" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithNoMandatoryFieldsCompleted -->
+        <test-method status="FAIL" signature="signOut()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="signOut" is-config="true" duration-ms="3026" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"logout"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 39491dc85b795f212b4897e835d734f1
+*** Element info: {Using=class name, value=logout}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"logout"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 39491dc85b795f212b4897e835d734f1
+*** Element info: {Using=class name, value=logout}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at registertest.RegisterTest.signOut(RegisterTest.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="tryToRegisterWithInvalidFormat_InTheZipCodeField()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="tryToRegisterWithInvalidFormat_InTheZipCodeField" duration-ms="0" started-at="2019-02-20T13:55:08Z" finished-at="2019-02-20T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToRegisterWithInvalidFormat_InTheZipCodeField -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:registertest.RegisterTest@61dc03ce]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-02-20T13:55:11Z" finished-at="2019-02-20T13:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- registertest.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 (0) -->
+  <suite name="Suite1" duration-ms="9951" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:07Z">
+    <groups>
+      <group name="negative">
+        <method signature="LoginTest.loginNegative()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="loginNegative" class="logintest.LoginTest"/>
+        <method signature="LoginTest.tryCreatingAnAccountWithExistingEmailAddress()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryCreatingAnAccountWithExistingEmailAddress" class="logintest.LoginTest"/>
+        <method signature="LoginTest.tryToLoginWithAnExistingEmailAddressButWrongPassword()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithAnExistingEmailAddressButWrongPassword" class="logintest.LoginTest"/>
+        <method signature="LoginTest.tryToLoginWithSQLInjectionInTheEmailAddressField()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithSQLInjectionInTheEmailAddressField" class="logintest.LoginTest"/>
+        <method signature="LoginTest.tryToLoginWithSQLInjectionInThePasswordField()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithSQLInjectionInThePasswordField" class="logintest.LoginTest"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="LoginTest.loginPositive()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="loginPositive" class="logintest.LoginTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Test" duration-ms="9951" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:07Z">
+      <class name="logintest.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="setup" is-config="true" duration-ms="3080" started-at="2019-02-20T13:54:54Z" finished-at="2019-02-20T13:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="init" is-config="true" duration-ms="7635" started-at="2019-02-20T13:54:57Z" finished-at="2019-02-20T13:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginNegative()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="loginNegative" duration-ms="1167" started-at="2019-02-20T13:55:05Z" finished-at="2019-02-20T13:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="FAIL" signature="loginPositive()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="loginPositive" duration-ms="1116" started-at="2019-02-20T13:55:06Z" finished-at="2019-02-20T13:55:07Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="header_user_info"]/a[@class="account"]/span"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 15755d92a463f4e95d3905c4e3e3e3b9
+*** Element info: {Using=xpath, value=//div[@class="header_user_info"]/a[@class="account"]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="header_user_info"]/a[@class="account"]/span"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 15755d92a463f4e95d3905c4e3e3e3b9
+*** Element info: {Using=xpath, value=//div[@class="header_user_info"]/a[@class="account"]/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageobject.Header.checkUserName(Header.java:31)
+at logintest.LoginTest.loginPositive(LoginTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="tryCreatingAnAccountWithExistingEmailAddress()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryCreatingAnAccountWithExistingEmailAddress" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryCreatingAnAccountWithExistingEmailAddress -->
+        <test-method status="PASS" signature="testForgetYourPasswordButton()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="testForgetYourPasswordButton" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetYourPasswordButton -->
+        <test-method status="PASS" signature="tryToLoginWithSQLInjectionInTheEmailAddressField()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithSQLInjectionInTheEmailAddressField" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToLoginWithSQLInjectionInTheEmailAddressField -->
+        <test-method status="PASS" signature="tryToLoginWithAnExistingEmailAddressButWrongPassword()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithAnExistingEmailAddressButWrongPassword" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToLoginWithAnExistingEmailAddressButWrongPassword -->
+        <test-method status="PASS" signature="tryToLoginWithSQLInjectionInThePasswordField()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="tryToLoginWithSQLInjectionInThePasswordField" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToLoginWithSQLInjectionInThePasswordField -->
+        <test-method status="FAIL" signature="signOut()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="signOut" is-config="true" duration-ms="20" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"logout"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 15755d92a463f4e95d3905c4e3e3e3b9
+*** Element info: {Using=class name, value=logout}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"logout"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5308', ip: '172.16.233.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 15755d92a463f4e95d3905c4e3e3e3b9
+*** Element info: {Using=class name, value=logout}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at logintest.LoginTest.signOut(LoginTest.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:logintest.LoginTest@4cb2c100]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-02-20T13:55:07Z" finished-at="2019-02-20T13:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- logintest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
