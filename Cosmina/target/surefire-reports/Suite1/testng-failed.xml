@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="Nopackage(failed)">
+    <groups>
+      <run>
+        <include name="negativetest"/>
+        <include name="positivetest"/>
+        <include name="negativetest"/>
+        <include name="positivetest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="logintest.LoginTest">
+        <methods>
+          <include name="loginValidUser"/>
+          <include name="loginInvalidUser"/>
+        </methods>
+      </class> <!-- logintest.LoginTest -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

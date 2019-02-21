@@ -1,0 +1,15 @@
+{
+  "firstNamePersonal" : "Cosmina",
+  "lastNamePersonal" : "Chirila",
+  "email" : "email",
+  "password" : "password",
+  "firstNameAddress": "Cosmina",
+  "lastNameAddress": "Chirila",
+  "address": "Vladimirescu",
+  "city": "Iasi",
+  "state": "Georgia",
+  "postalCode": "postal",
+  "country": "Romania",
+  "mobilePhone": "mobile",
+  "addressAlias": "address"
+}
