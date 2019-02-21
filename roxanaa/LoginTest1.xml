@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LogInSuite" verbose="1" >
+    <parameter name="emailAddress"  value="email@mailinator.com"/>
+    <parameter name="passwordLog"  value="Test12345"/>
+    <test name="Test">
+        <classes>
+            <class name="logintest.LoginTest"/>
+        </classes>
+    </test>
+</suite>
