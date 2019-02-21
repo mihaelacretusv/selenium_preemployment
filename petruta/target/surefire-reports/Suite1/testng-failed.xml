@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="Regression1(failed)">
+    <classes>
+      <class name="registerTest.RegisterTest">
+        <methods>
+          <include name="createAnValidAccount"/>
+          <include name="init"/>
+          <include name="competeAllFields" invocation-numbers="0"/>
+          <include name="SingOut"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- registerTest.RegisterTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

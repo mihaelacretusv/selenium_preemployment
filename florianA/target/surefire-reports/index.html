@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1_(0)">
+              <span class="suite-name border-failed">Suite1 (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1_(0)">
+                    <span>C:\Projects\Selenium\selenium_preemployment\florianA\register.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1_(0)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1_(0)">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1_(0)" class="hide-methods failed suite-Suite1_(0)"> (hide)</a> <!-- hide-methods failed suite-Suite1_(0) -->
+                      <a href="#" panel-name="suite-Suite1_(0)" class="show-methods failed suite-Suite1_(0)"> (show)</a> <!-- show-methods failed suite-Suite1_(0) -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1_(0)">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="creatingAnAccountWithValidInformation">creatingAnAccountWithValidInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1_(0) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1_(0)" class="hide-methods passed suite-Suite1_(0)"> (hide)</a> <!-- hide-methods passed suite-Suite1_(0) -->
+                      <a href="#" panel-name="suite-Suite1_(0)" class="show-methods passed suite-Suite1_(0)"> (show)</a> <!-- show-methods passed suite-Suite1_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="positiveFlowWithAllFields">positiveFlowWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="seeCountryFieldContent_AndChooseOneCountry">seeCountryFieldContent_AndChooseOneCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="seeStateFieldContent_AndChooseOneState">seeStateFieldContent_AndChooseOneState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InTheAddressField">tryToRegisterWithInvalidFormat_InTheAddressField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InTheAliasField">tryToRegisterWithInvalidFormat_InTheAliasField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InTheDOBField">tryToRegisterWithInvalidFormat_InTheDOBField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InTheMobilePhoneField">tryToRegisterWithInvalidFormat_InTheMobilePhoneField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InThePasswordField">tryToRegisterWithInvalidFormat_InThePasswordField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithInvalidFormat_InTheZipCodeField">tryToRegisterWithInvalidFormat_InTheZipCodeField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1_(0)" title="registertest.RegisterTest" hash-for-method="tryToRegisterWithNoMandatoryFieldsCompleted">tryToRegisterWithNoMandatoryFieldsCompleted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>C:\Projects\Selenium\selenium_preemployment\florianA\login.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="loginPositive">loginPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="loginNegative">loginNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="testForgetYourPasswordButton">testForgetYourPasswordButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="tryCreatingAnAccountWithExistingEmailAddress">tryCreatingAnAccountWithExistingEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="tryToLoginWithAnExistingEmailAddressButWrongPassword">tryToLoginWithAnExistingEmailAddressButWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="tryToLoginWithSQLInjectionInTheEmailAddressField">tryToLoginWithSQLInjectionInTheEmailAddressField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="logintest.LoginTest" hash-for-method="tryToLoginWithSQLInjectionInThePasswordField">tryToLoginWithSQLInjectionInThePasswordField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1_(0)" class="panel Suite1_(0)">
+          <div class="suite-Suite1_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">registertest.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creatingAnAccountWithValidInformation">
+                  </a> <!-- creatingAnAccountWithValidInformation -->
+                  <span class="method-name">creatingAnAccountWithValidInformation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;customer_firstname&quot;}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;P5308&apos;, ip: &apos;172.16.233.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 39491dc85b795f212b4897e835d734f1
+*** Element info: {Using=id, value=customer_firstname}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageobject.Register.populateFirstName(Register.java:39)
+	at pageobject.Register.registerUser(Register.java:98)
+	at registertest.RegisterTest.creatingAnAccountWithValidInformation(RegisterTest.java:58)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1_(0)-class-failed -->
+          <div class="suite-Suite1_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">registertest.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveFlowWithAllFields">
+                  </a> <!-- positiveFlowWithAllFields -->
+                  <span class="method-name">positiveFlowWithAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seeCountryFieldContent_AndChooseOneCountry">
+                  </a> <!-- seeCountryFieldContent_AndChooseOneCountry -->
+                  <span class="method-name">seeCountryFieldContent_AndChooseOneCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seeStateFieldContent_AndChooseOneState">
+                  </a> <!-- seeStateFieldContent_AndChooseOneState -->
+                  <span class="method-name">seeStateFieldContent_AndChooseOneState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InTheAddressField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InTheAddressField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InTheAddressField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InTheAliasField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InTheAliasField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InTheAliasField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InTheDOBField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InTheDOBField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InTheDOBField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InTheMobilePhoneField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InTheMobilePhoneField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InTheMobilePhoneField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InThePasswordField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InThePasswordField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InThePasswordField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithInvalidFormat_InTheZipCodeField">
+                  </a> <!-- tryToRegisterWithInvalidFormat_InTheZipCodeField -->
+                  <span class="method-name">tryToRegisterWithInvalidFormat_InTheZipCodeField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToRegisterWithNoMandatoryFieldsCompleted">
+                  </a> <!-- tryToRegisterWithNoMandatoryFieldsCompleted -->
+                  <span class="method-name">tryToRegisterWithNoMandatoryFieldsCompleted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1_(0)-class-passed -->
+        </div> <!-- panel Suite1_(0) -->
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">logintest.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPositive">
+                  </a> <!-- loginPositive -->
+                  <span class="method-name">loginPositive</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;header_user_info&quot;]/a[@class=&quot;account&quot;]/span&quot;}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;P5308&apos;, ip: &apos;172.16.233.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FLORIA~1.ANG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 15755d92a463f4e95d3905c4e3e3e3b9
+*** Element info: {Using=xpath, value=//div[@class=&quot;header_user_info&quot;]/a[@class=&quot;account&quot;]/span}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageobject.Header.checkUserName(Header.java:31)
+	at logintest.LoginTest.loginPositive(LoginTest.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">logintest.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegative">
+                  </a> <!-- loginNegative -->
+                  <span class="method-name">loginNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgetYourPasswordButton">
+                  </a> <!-- testForgetYourPasswordButton -->
+                  <span class="method-name">testForgetYourPasswordButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryCreatingAnAccountWithExistingEmailAddress">
+                  </a> <!-- tryCreatingAnAccountWithExistingEmailAddress -->
+                  <span class="method-name">tryCreatingAnAccountWithExistingEmailAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToLoginWithAnExistingEmailAddressButWrongPassword">
+                  </a> <!-- tryToLoginWithAnExistingEmailAddressButWrongPassword -->
+                  <span class="method-name">tryToLoginWithAnExistingEmailAddressButWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToLoginWithSQLInjectionInTheEmailAddressField">
+                  </a> <!-- tryToLoginWithSQLInjectionInTheEmailAddressField -->
+                  <span class="method-name">tryToLoginWithSQLInjectionInTheEmailAddressField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToLoginWithSQLInjectionInThePasswordField">
+                  </a> <!-- tryToLoginWithSQLInjectionInThePasswordField -->
+                  <span class="method-name">tryToLoginWithSQLInjectionInThePasswordField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\Selenium\selenium_preemployment\florianA\register.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1 (0)&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;registertest.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\Selenium\selenium_preemployment\florianA\login.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;logintest.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginNegative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">seeCountryFieldContent_AndChooseOneCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">seeStateFieldContent_AndChooseOneState</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryCreatingAnAccountWithExistingEmailAddress</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithAnExistingEmailAddressButWrongPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithSQLInjectionInTheEmailAddressField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithSQLInjectionInThePasswordField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheAddressField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheAliasField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheDOBField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheMobilePhoneField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InThePasswordField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheZipCodeField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithNoMandatoryFieldsCompleted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginPositive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveFlowWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginNegative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">seeCountryFieldContent_AndChooseOneCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">seeStateFieldContent_AndChooseOneState</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryCreatingAnAccountWithExistingEmailAddress</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithAnExistingEmailAddressButWrongPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithSQLInjectionInTheEmailAddressField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToLoginWithSQLInjectionInThePasswordField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheAddressField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheAliasField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheDOBField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheMobilePhoneField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InThePasswordField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithInvalidFormat_InTheZipCodeField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tryToRegisterWithNoMandatoryFieldsCompleted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginPositive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveFlowWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1_(0)');
+function tableData_Suite1_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'creatingAnAccountWithValidInformation')
+data.setCell(0, 2, 'registertest.RegisterTest')
+data.setCell(0, 3, 3291);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tryToRegisterWithInvalidFormat_InTheAliasField')
+data.setCell(1, 2, 'registertest.RegisterTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'positiveFlowWithAllFields')
+data.setCell(2, 2, 'registertest.RegisterTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tryToRegisterWithNoMandatoryFieldsCompleted')
+data.setCell(3, 2, 'registertest.RegisterTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tryToRegisterWithInvalidFormat_InTheDOBField')
+data.setCell(4, 2, 'registertest.RegisterTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'seeCountryFieldContent_AndChooseOneCountry')
+data.setCell(5, 2, 'registertest.RegisterTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tryToRegisterWithInvalidFormat_InTheZipCodeField')
+data.setCell(6, 2, 'registertest.RegisterTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tryToRegisterWithInvalidFormat_InTheAddressField')
+data.setCell(7, 2, 'registertest.RegisterTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tryToRegisterWithInvalidFormat_InTheMobilePhoneField')
+data.setCell(8, 2, 'registertest.RegisterTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tryToRegisterWithInvalidFormat_InThePasswordField')
+data.setCell(9, 2, 'registertest.RegisterTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'seeStateFieldContent_AndChooseOneState')
+data.setCell(10, 2, 'registertest.RegisterTest')
+data.setCell(10, 3, 0);
+window.suiteTableData['Suite1_(0)']= { tableData: data, tableDiv: 'times-div-Suite1_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Suite1_(0)">
+              </div> <!-- times-div-Suite1_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginNegative')
+data.setCell(0, 2, 'logintest.LoginTest')
+data.setCell(0, 3, 1167);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPositive')
+data.setCell(1, 2, 'logintest.LoginTest')
+data.setCell(1, 3, 1116);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tryToLoginWithSQLInjectionInTheEmailAddressField')
+data.setCell(2, 2, 'logintest.LoginTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tryCreatingAnAccountWithExistingEmailAddress')
+data.setCell(3, 2, 'logintest.LoginTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tryToLoginWithAnExistingEmailAddressButWrongPassword')
+data.setCell(4, 2, 'logintest.LoginTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tryToLoginWithSQLInjectionInThePasswordField')
+data.setCell(5, 2, 'logintest.LoginTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testForgetYourPasswordButton')
+data.setCell(6, 2, 'logintest.LoginTest')
+data.setCell(6, 3, 0);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1 (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">registertest.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">3080 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">creatingAnAccountWithValidInformation</span>
+                <span class="method-start">10409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveFlowWithAllFields</span>
+                <span class="method-start">13701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">seeCountryFieldContent_AndChooseOneCountry</span>
+                <span class="method-start">13702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">seeStateFieldContent_AndChooseOneState</span>
+                <span class="method-start">13702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InTheAddressField</span>
+                <span class="method-start">13702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InTheAliasField</span>
+                <span class="method-start">13702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InTheDOBField</span>
+                <span class="method-start">13703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InTheMobilePhoneField</span>
+                <span class="method-start">13703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InThePasswordField</span>
+                <span class="method-start">13703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithInvalidFormat_InTheZipCodeField</span>
+                <span class="method-start">13704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToRegisterWithNoMandatoryFieldsCompleted</span>
+                <span class="method-start">13704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signOut</span>
+                <span class="method-start">13704 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">logintest.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">3080 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginNegative</span>
+                <span class="method-start">10716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPositive</span>
+                <span class="method-start">11883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForgetYourPasswordButton</span>
+                <span class="method-start">13008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryCreatingAnAccountWithExistingEmailAddress</span>
+                <span class="method-start">13008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToLoginWithAnExistingEmailAddressButWrongPassword</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToLoginWithSQLInjectionInTheEmailAddressField</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryToLoginWithSQLInjectionInThePasswordField</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signOut</span>
+                <span class="method-start">13010 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

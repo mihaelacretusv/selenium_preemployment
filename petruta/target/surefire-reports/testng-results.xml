@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="10742" started-at="2019-02-20T14:05:51 EET" finished-at="2019-02-20T14:06:02 EET">
+    <groups>
+      <group name="negativ">
+        <method signature="RegisterTest.cityContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="cityContainDigits" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.completeOnlyNonMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="completeOnlyNonMandatoryFields" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.firstNameContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="firstNameContainDigits" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.firstNameContainNonAlphabeticCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="firstNameContainNonAlphabeticCharacters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.invalidEmail()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="invalidEmail" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lastNameContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lastNameContainDigits" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lastNameContainNonAlphabeticCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lastNameContainNonAlphabeticCharacters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lengthMobilePhoneContainLess9Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthMobilePhoneContainLess9Characters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lengthMobilePhoneContainMore17Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthMobilePhoneContainMore17Characters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lengthPasswordContainLess5Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthPasswordContainLess5Characters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.lengthPasswordContainMore40Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthPasswordContainMore40Characters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.mobilePhoneContainCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="mobilePhoneContainCharacters" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.noCompletedLessOneMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="noCompletedLessOneMandatoryFields" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.registeredWithAlreadyExistEmailAddress()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="registeredWithAlreadyExistEmailAddress" class="registerTest.RegisterTest"/>
+      </group> <!-- negativ -->
+      <group name="pozitiv">
+        <method signature="RegisterTest.completeMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="completeMandatoryFields" class="registerTest.RegisterTest"/>
+        <method signature="RegisterTest.createAnValidAccount()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="createAnValidAccount" class="registerTest.RegisterTest"/>
+      </group> <!-- pozitiv -->
+    </groups>
+    <test name="Regression1" duration-ms="10742" started-at="2019-02-20T14:05:51 EET" finished-at="2019-02-20T14:06:02 EET">
+      <class name="registerTest.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="setUp" is-config="true" duration-ms="8118" started-at="2019-02-20T14:05:43 EET" finished-at="2019-02-20T14:05:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="init" is-config="true" duration-ms="6867" started-at="2019-02-20T14:05:51 EET" finished-at="2019-02-20T14:05:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="cityContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="cityContainDigits" duration-ms="0" started-at="2019-02-20T14:05:58 EET" finished-at="2019-02-20T14:05:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityContainDigits -->
+        <test-method status="PASS" signature="competeAllFields(java.lang.String)[pri:0, instance:registerTest.RegisterTest@4678c730]" name="competeAllFields" duration-ms="151" started-at="2019-02-20T14:05:58 EET" data-provider="information" finished-at="2019-02-20T14:05:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- competeAllFields -->
+        <test-method status="PASS" signature="completeMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="completeMandatoryFields" duration-ms="0" started-at="2019-02-20T14:05:58 EET" finished-at="2019-02-20T14:05:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeMandatoryFields -->
+        <test-method status="PASS" signature="createAnValidAccount()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="createAnValidAccount" duration-ms="3602" started-at="2019-02-20T14:05:58 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnValidAccount -->
+        <test-method status="PASS" signature="completeOnlyNonMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="completeOnlyNonMandatoryFields" duration-ms="0" started-at="2019-02-20T14:05:58 EET" finished-at="2019-02-20T14:05:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOnlyNonMandatoryFields -->
+        <test-method status="PASS" signature="firstNameContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="firstNameContainDigits" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameContainDigits -->
+        <test-method status="PASS" signature="firstNameContainNonAlphabeticCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="firstNameContainNonAlphabeticCharacters" duration-ms="1" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameContainNonAlphabeticCharacters -->
+        <test-method status="PASS" signature="lastNameContainDigits()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lastNameContainDigits" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameContainDigits -->
+        <test-method status="PASS" signature="invalidEmail()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="invalidEmail" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="lastNameContainNonAlphabeticCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lastNameContainNonAlphabeticCharacters" duration-ms="1" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameContainNonAlphabeticCharacters -->
+        <test-method status="PASS" signature="lengthMobilePhoneContainLess9Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthMobilePhoneContainLess9Characters" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lengthMobilePhoneContainLess9Characters -->
+        <test-method status="PASS" signature="lengthMobilePhoneContainMore17Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthMobilePhoneContainMore17Characters" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lengthMobilePhoneContainMore17Characters -->
+        <test-method status="PASS" signature="lengthPasswordContainLess5Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthPasswordContainLess5Characters" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lengthPasswordContainLess5Characters -->
+        <test-method status="PASS" signature="lengthPasswordContainMore40Characters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="lengthPasswordContainMore40Characters" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lengthPasswordContainMore40Characters -->
+        <test-method status="PASS" signature="mobilePhoneContainCharacters()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="mobilePhoneContainCharacters" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilePhoneContainCharacters -->
+        <test-method status="PASS" signature="noCompletedLessOneMandatoryFields()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="noCompletedLessOneMandatoryFields" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCompletedLessOneMandatoryFields -->
+        <test-method status="PASS" signature="registeredWithAlreadyExistEmailAddress()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="registeredWithAlreadyExistEmailAddress" duration-ms="0" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredWithAlreadyExistEmailAddress -->
+        <test-method status="PASS" signature="SingOut()[pri:0, instance:registerTest.RegisterTest@4678c730]" name="SingOut" is-config="true" duration-ms="44" started-at="2019-02-20T14:06:02 EET" finished-at="2019-02-20T14:06:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingOut -->
+      </class> <!-- registerTest.RegisterTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

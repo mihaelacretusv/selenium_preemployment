@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0724363e-d5c0-41cc-85a4-c070de0c39ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/selenium_preemployment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roxanac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/registertest/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/RegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/RegisterForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/RegisterForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logintest/LoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,15 +24,113 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/registertest/RegisterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/RegisterForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -55,8 +150,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/MyAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/registertest/RegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/RegisterForm.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/logintest/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/Register.java" />
       </list>
     </option>
   </component>
@@ -84,8 +190,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="730" />
-    <option name="width" value="1133" />
+    <option name="x" value="534" />
+    <option name="width" value="1392" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,13 +200,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
               <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
@@ -120,18 +231,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logintest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxanac" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550502923031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550662769956" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,17 +305,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="TestNG.LoginTest.loginValidUser">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pageobjects.Main" />
       <module name="roxanac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="roxanac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logintest" />
+      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="roxanac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logintest" />
+      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
+      <option name="METHOD_NAME" value="loginValidUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.login_InvalidUser_ShouldNotRedirectToMyAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="roxanac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logintest" />
+      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
+      <option name="METHOD_NAME" value="login_InvalidUser_ShouldNotRedirectToMyAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.login_ValidUser_ShouldRedirectToMyAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="roxanac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logintest" />
+      <option name="MAIN_CLASS_NAME" value="logintest.LoginTest" />
+      <option name="METHOD_NAME" value="login_ValidUser_ShouldRedirectToMyAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.LoginTest.loginValidUser" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.login_InvalidUser_ShouldNotRedirectToMyAccount" />
+        <item itemvalue="TestNG.LoginTest.login_ValidUser_ShouldRedirectToMyAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -172,52 +412,197 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LoginTest_login_ValidUser_ShouldRedirectToMyAccount - 2019.02.19 at 14h 58m 17s.xml">
+      <configuration name="LoginTest.login_ValidUser_ShouldRedirectToMyAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.19 at 14h 59m 12s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_login_InvalidUser_ShouldNotRedirectToMyAccount - 2019.02.19 at 15h 15m 58s.xml">
+      <configuration name="LoginTest.login_InvalidUser_ShouldNotRedirectToMyAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.19 at 15h 17m 36s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.19 at 15h 19m 12s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.19 at 15h 28m 41s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.19 at 15h 30m 26s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.20 at 11h 14m 35s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.20 at 11h 15m 37s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_loginValidUser - 2019.02.20 at 13h 07m 11s.xml">
+      <configuration name="LoginTest.loginValidUser" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41061756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23293608" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.5498602" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/FormRegister.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/MyAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/RegisterForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/registertest/RegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/logintest/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -287,6 +672,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LogInSuite]">
+  <parameter name="emailAddress" value="email@mailinator.com"/>
+  <parameter name="passwordLog" value="Test12345"/>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="logintest.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="logInInvalidUserWithValidEmailAddressButNonExistingAccount" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- logintest.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LogInSuite] -->

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "LoginandRegister">
+    <parameter name = "b" value="mihaela.cretu@softvision.ro"/>
+    <parameter name = "c" value="Test1234"/>
+<test name = "TestForRegisterandLogin">
+
+    <groups>
+        <run>
+            <include name = "negative" />
+            <include name = "positive" />
+        </run>
+    </groups>
+
+    <classes>
+        <class name="logintest.LoginTest"/>
+        <class name = "logintest.RegisterTest"/>
+    </classes>
+
+</test>
+</suite>
+
+
+

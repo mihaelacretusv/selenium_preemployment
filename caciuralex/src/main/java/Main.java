@@ -2,7 +2,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -28,7 +27,7 @@ public class Main {
         element.sendKeys("goooogle");
         webDriver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 
-        //insert text
+        //get text
         System.out.println("Get text");
         System.out.println(element.getText());
         webDriver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
@@ -41,11 +40,9 @@ public class Main {
         WebElement product = webDriver.findElement(By.id("homefeatured"));
 
         List<WebElement> productName = product.findElements(By.className("product-container"));
-
         System.out.println(productName.size());
 
-        List<WebElement> productPrice = product.findElements(By.className("product-price"));
-
+        List<WebElement> productPrice = product.findElements(By.className("right-block"));
         System.out.println(productPrice.size());
 
         webDriver.close();

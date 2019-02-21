@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="76.841" tests="6" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\selenium_preemployment\caciuralex\target\test-classes;C:\selenium_preemployment\caciuralex\target\classes;C:\Users\alexandru.caciur\.m2\repository\org\testng\testng\7.0.0-beta3\testng-7.0.0-beta3.jar;C:\Users\alexandru.caciur\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alexandru.caciur\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alexandru.caciur\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alexandru.caciur\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alexandru.caciur\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\alexandru.caciur\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alexandru.caciur\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alexandru.caciur\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\alexandru.caciur\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\alexandru.caciur\AppData\Local\Temp\surefire1296484498040793639\surefirebooter3438719526248066647.jar C:\Users\alexandru.caciur\AppData\Local\Temp\surefire1296484498040793639 2019-02-20T15-29-42_582-jvmRun1 surefire1006411387409266990tmp surefire_03335521029413068182tmp"/>
+    <property name="surefire.test.class.path" value="C:\selenium_preemployment\caciuralex\target\test-classes;C:\selenium_preemployment\caciuralex\target\classes;C:\Users\alexandru.caciur\.m2\repository\org\testng\testng\7.0.0-beta3\testng-7.0.0-beta3.jar;C:\Users\alexandru.caciur\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alexandru.caciur\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alexandru.caciur\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alexandru.caciur\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alexandru.caciur\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alexandru.caciur\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alexandru.caciur\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\alexandru.caciur\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\alexandru.caciur\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alexandru.caciur\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alexandru.caciur\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\alexandru.caciur\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alexandru.caciur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="basedir" value="C:\selenium_preemployment\caciuralex"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\alexandru.caciur\AppData\Local\Temp\surefire1296484498040793639\surefirebooter3438719526248066647.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="alexandru.caciur"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alexandru.caciur\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ALEXAN~1.CAC\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="C:\selenium_preemployment\caciuralex"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\devtools\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Notepad++;C:\Users\alexandru.caciur\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="logIn_InvalidUser" classname="logintest.LoginTest" time="12.83">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)
+	at logintest.LoginTest.logIn_InvalidUser(LoginTest.java:41)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5808', ip: '172.16.233.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALEXAN~1.CAC\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: ebad946f77bcb5fd43e8f571a167dff3
+*** Element info: {Using=id, value=email}
+	at logintest.LoginTest.logIn_InvalidUser(LoginTest.java:41)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 12514
+Only local connections are allowed.
+Feb 20, 2019 3:29:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 20279
+Only local connections are allowed.
+Feb 20, 2019 3:29:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="logIn_ValidUser" classname="logintest.LoginTest" time="10.085">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)
+	at logintest.LoginTest.logIn_ValidUser(LoginTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5808', ip: '172.16.233.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALEXAN~1.CAC\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: ebad946f77bcb5fd43e8f571a167dff3
+*** Element info: {Using=id, value=email}
+	at logintest.LoginTest.logIn_ValidUser(LoginTest.java:34)
+</failure>
+  </testcase>
+  <testcase name="checkIfPopulatedPasswordHasLessThan5_Characters" classname="logintest.RegisterTest" time="10.814">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)
+	at logintest.RegisterTest.checkIfPopulatedPasswordHasLessThan5_Characters(RegisterTest.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"customer_firstname"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5808', ip: '172.16.233.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALEXAN~1.CAC\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 5a425fedc2d6e01ff3f3be3d010042d3
+*** Element info: {Using=id, value=customer_firstname}
+	at logintest.RegisterTest.checkIfPopulatedPasswordHasLessThan5_Characters(RegisterTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="register_WithValidEmail_CompletingAllMandatory" classname="logintest.RegisterTest" time="10.769">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)
+	at logintest.RegisterTest.register_WithValidEmail_CompletingAllMandatory(RegisterTest.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"customer_firstname"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5808', ip: '172.16.233.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALEXAN~1.CAC\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 5a425fedc2d6e01ff3f3be3d010042d3
+*** Element info: {Using=id, value=customer_firstname}
+	at logintest.RegisterTest.register_WithValidEmail_CompletingAllMandatory(RegisterTest.java:67)
+</failure>
+  </testcase>
+  <testcase name="tryToRegister_WithAlreadyUsedEmail" classname="logintest.RegisterTest" time="0.278"/>
+  <testcase name="tryToRegister_WithValidEmail_WithoutCompletingAllMandatory" classname="logintest.RegisterTest" time="10.265">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: customer_firstname (tried for 10 second(s) with 500 milliseconds interval)
+	at logintest.RegisterTest.tryToRegister_WithValidEmail_WithoutCompletingAllMandatory(RegisterTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"customer_firstname"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P5808', ip: '172.16.233.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALEXAN~1.CAC\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 5a425fedc2d6e01ff3f3be3d010042d3
+*** Element info: {Using=id, value=customer_firstname}
+	at logintest.RegisterTest.tryToRegister_WithValidEmail_WithoutCompletingAllMandatory(RegisterTest.java:43)
+</failure>
+  </testcase>
+</testsuite>
